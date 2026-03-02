@@ -7,6 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
+import altair as alt
 
 st.set_page_config(layout="wide", page_title="Uber vs Lyft Playground")
 
